@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello'; // Import Component
+import HelloYourName from './HelloYourName'; // Import Component
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         </a>
       </header>
       <Hello />
+      <HelloYourName />
+
     </div>
   );
 }
